@@ -22,7 +22,8 @@ h1 {
   /*Propiedades short hands*/
   border-color: green;
   border-top-color: red;
-  border-width: thin; /* thin - 1px, medium - 3px, thick - 5 px */
+  border-width: thin;
+  /* thin - 1px, medium - 3px, thick - 5 px */
   border-style: solid;
   border: 2px dashed blue;
 }
@@ -136,6 +137,7 @@ Tamaño de Caja
   padding: 10px;
   border: thick solid black;
 }
+
 /*El tamaño de la caja es la sumatoria de todos los pixeles o la medida x de todos los varoles (widht + height + padding + border= Box size)*/
 
 .box-sizing-border {
@@ -149,7 +151,7 @@ Tamaño de Caja
   margin-top: 20px;
 }
 
-.container-col-3 > * {
+.container-col-3>* {
   box-sizing: border-box;
   width: 200px;
   border: thin solid red;
@@ -160,6 +162,7 @@ Tamaño de Caja
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -210,4 +213,3 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-/*box model stylesheet file*/
