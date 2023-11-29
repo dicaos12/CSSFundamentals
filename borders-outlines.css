@@ -28,7 +28,23 @@
 }
 
 .border-radius-4 {
+  /*bordes elípticos cuando la caja es rectangular*/
   width: 400px;
   height: 200px;
+  width: 200px;
+  height: 400px;
   border-radius: 50%;
+}
+
+.outline {
+  color: white;
+  text-align: center;
+  outline-width: 5px;
+  outline-style: dashed;
+  outline-color: rosybrown;
+  outline: thick solid blue;
+  /*border-width: 20px;*/
+  /* outline-width: 10px; */
+  outline-offset: 3rem;
+  outline-offset: -3rem;
 }
