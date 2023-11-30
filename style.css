@@ -11,7 +11,7 @@ Regla css: consta de 2 partes:
 
 /*son mala práctica porque son bloqueantes a la hora en el que el navegador lee instrucciones*/
 
-@import url(assets/otra-hoja.css);
+@import url(otra-hoja.css);
 
 h1 {
   color: orangered;
@@ -55,7 +55,7 @@ p {
   color: white;
 }
 
-.hijos-directos > li {
+.hijos-directos>li {
   background-color: thistle;
 }
 
@@ -64,11 +64,11 @@ p {
 }
 
 /* los selectores de hermanos van a aplicar a los elementos que son hermanos y que esten por debajo del elemento dereferencia*/
-.hermanos-general ~ li {
+.hermanos-general~li {
   background-color: thistle;
 }
 
-.hermanos-adyacentes + li {
+.hermanos-adyacentes+li {
   background-color: thistle;
 }
 
@@ -139,6 +139,7 @@ p {
 .menu-pseudoclases a:visited {
   color: olive;
 }
+
 .menu-pseudoclases a:hover {
   color: orange;
 }
@@ -236,7 +237,8 @@ p {
 .form-agrupar-selectores textarea {
   border-color: yellow;
   border-width: 2px;
-  border-style: dashed; /*líneas discontinuas*/
+  border-style: dashed;
+  /*líneas discontinuas*/
   background-color: black;
   font-size: 20px;
   display: block;

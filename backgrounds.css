@@ -47,7 +47,7 @@ backgrund-attachment: define cómo se comportará la imagen de fondo al desplaza
 
 .bg-position {
   background-color: chocolate;
-  background-image: url(/css/assets/chart.png);
+  background-image: url(css/assets/chart2.png);
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: 10px 20px;
@@ -84,4 +84,32 @@ backgrund-attachment: define cómo se comportará la imagen de fondo al desplaza
   background-origin: border-box;
   background-origin: content-box;
   padding: 1rem;
+}
+
+.bg-attachment {
+  background-image: url(css/assets/bichoybichito.jpg);
+  background-color: chartreuse;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  background-attachment: scroll;
+  /*El scroll es el valor por default*/
+  background-attachment: fixed;
+}
+
+.bg-multiple {
+  width: 50%;
+  height: 60vh;
+  background-image: url(css/assets/fondoblancotimi.png),
+    url(css/assets/bichoybichito.jpg);
+  background-repeat: repeat-x, no-repeat;
+  background-size: 10%, cover;
+}
+
+.bg-art {
+  width: 100%;
+  height: 300vh;
+  background: url(css/assets/fondoblancotimi.png),
+    url(css/assets/IMG20220929074816.jpg) no-repeat center/cover fixed
 }

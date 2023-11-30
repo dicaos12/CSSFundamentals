@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  border: medium solid black;
+  width: 400px;
+  height: 600px;
+}
+
+.card img {
+  height: 300px;
+}
