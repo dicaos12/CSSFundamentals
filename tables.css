@@ -1,0 +1,19 @@
+.table {
+  font-size: 3rem;
+  border: medium solid violet;
+  border-collapse: separate;
+  /*default*/
+  /*border-collapse: collapse;*/
+  empty-cells: hide;
+  empty-cells: show;
+}
+
+table,
+th,
+td {
+  border: medium solid violet;
+  border-spacing: 10px;
+  /*para que pueda aplicarse, el valor del border-collapse debe ser separate*/
+  border-spacing: 10px;
+  /*si el border-collapse: separate y quiero eliminar el borde, el valor de border-spacing debe ser cero, lo mismo con empty-cells*/
+}
