@@ -29,6 +29,14 @@ html {
   color: var(--form-placeholder-color);
 }
 
+.contact-form>*[required]:invalid {
+  border: thin solid var(--form-error-color);
+}
+
+.contact-form>*:valid {
+  border: thin solid var(--form-success-color);
+}
+
 .contact-form>* {
   display: block;
   width: 100%;
@@ -38,6 +46,7 @@ html {
   padding: .5rem;
   border-radius: .25rem;
   color: var(--form-text-color);
+  caret-color: var(--form-placeholder-color);
 }
 
 .contact-form input[type="submit"] {
@@ -49,4 +58,13 @@ html {
   font-weight: bold;
   font-size: .75rem;
   color: #fff;
+}
+
+.contact-form input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.contact-form textarea {
+  resize: none;
 }
