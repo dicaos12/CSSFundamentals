@@ -152,6 +152,8 @@ p {
   background-color: lightgreen;
 }
 
+/*el que no sirve*/
+
 .lista-pseudoclases li:first-child {
   color: green;
 }

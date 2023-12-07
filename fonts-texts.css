@@ -35,7 +35,7 @@ optional: ocultará el texto, luego lo cargará con la fuente alternativa y fina
 
 @font-face {
   font-family: "Caveat";
-  src: url("../fonts/Caveat-VariableFont_wght.ttf") format("woff");
+  src: url("/css/fonts/Caveat-VariableFont_wght.ttf") format("woff");
   /* src: url("../fonts/Caveat-VariableFont_wght.ttf") format("woff"),
   src: url("../fonts/Caveat-VariableFont_wght.ttf2") format("woff2") */
 }
@@ -48,7 +48,7 @@ optional: ocultará el texto, luego lo cargará con la fuente alternativa y fina
 
 @font-face {
   font-family: "dancingscript";
-  src: url("../fonts/DancingScript-VariableFont_wght.ttf") format("woff");
+  src: url(/css/fonts/DancingScript-VariableFont_wght.ttf) format("woff");
 }
 
 .dancingscript {
@@ -118,7 +118,8 @@ writing-mode: direcicón de la escritura (para que el texto quede en vertical) y
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px; /* Preferred icon size */
+  font-size: 24px;
+  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
